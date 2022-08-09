@@ -12,7 +12,7 @@
           </div>
         </div>
         <div class="">
-          <Usertable v-bind:users="users"/>
+          <Usertable :users="users" />
         </div>
       </div>
     </div>
@@ -20,7 +20,7 @@
 </template>
 
 <script>
-import axios from 'axios';
+import axios from "axios";
 import Sidebar from "../layout/Sidebar.vue";
 import Header from "../layout/Header.vue";
 import Infouser from "../components/Infouser.vue";
@@ -37,22 +37,27 @@ export default {
     Sidebar,
     Header,
   },
-  data () {
-    return{
-        users:[],
-    }    
+  data() {
+    return {
+      users: [],
+    };
   },
   async created() {
     await this.getUser();
   },
-  methods:{
+  methods: {
     async getUser() {
-        axios.get("https://api.npoint.io/ce5a9841d94205ae34f9?fbclid=IwAR3RqTgUtSUINGUzXMtcn4u9Dt16bZw9RB71SW3zHy6-rO6CPow1mxYZwKw").then((respon)=>{
-            console.log(respon.data)
-            this.users = respon.data;
-        })
-    }
-  }
+      try {
+        const repos = await axios.get(
+          "https://api.npoint.io/ce5a9841d94205ae34f9?fbclid=IwAR3RqTgUtSUINGUzXMtcn4u9Dt16bZw9RB71SW3zHy6-rO6CPow1mxYZwKw"
+        );
+        console.log(repos.data);
+        this.users = repos.data;
+      } catch (error) {
+        console.log(error);
+      }
+    },
+  },
 };
 </script>
 
