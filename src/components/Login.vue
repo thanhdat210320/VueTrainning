@@ -2,16 +2,16 @@
   <div class=" flex px-[50px]">
     <div class="w-[720px] h-[807px] pl-[140px] rounded-[30px] bg-[#FFFCFC] shadow-[0px_6px_15px_rgba(0,0,0,0.5)] p-[80px] relative left-[170px] z-10">
       <div class="">
-        <h1 class="text-[#F57212] text-[43px] font-normal	">
+        <h1 class="title text-[#F57212] text-[43px] font-normal	">
           Customer Care
         </h1>
       </div>
       <div class="flex flex-col pt-[30px]">
-        <label class="text-[#0070D2] text-[28px] pb-[20px] " for="">Tên đăng nhập</label>
+        <label class="user_name text-[#0070D2] text-[28px] pb-[20px] " for="">Tên đăng nhập</label>
         <input placeholder="example@gmail.com" class="rounded-[15px] border-[1px] border-[#CECDCD] w-[431px] h-[72px] p-[20px] placeholder-[#CECDCD] " type="text">
       </div>
       <div class="flex flex-col">
-        <label class="text-[#0070D2] text-[28px] pb-[20px] pt-[20px]" for="">Mật khẩu</label>
+        <label class="user_pass text-[#0070D2] text-[28px] pb-[20px] pt-[20px]" for="">Mật khẩu</label>
         <input placeholder="*************************" class="rounded-[15px] border-[1px] border-[#CECDCD] w-[431px] h-[72px] pt-[35px] p-[20px] placeholder-[#CECDCD]" type="text">
       </div>
       <div class="flex pt-[20px] pb-[20px] justify-between w-[420px] text-[#0070D2]">
@@ -44,5 +44,11 @@ export default {
   font-weight: 400;
   font-size: 28px;
   line-height: 33px;
+}
+.title{
+  font-family: 'Poppins';
+}
+.user_name .user_pass{
+  font-family: 'Roboto';
 }
 </style>

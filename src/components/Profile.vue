@@ -30,7 +30,7 @@
         <div class="text-[#000000] text-[35px]">
             <font-awesome-icon icon="fa-solid fa-envelope" />
         </div>
-        <div class="px-[33px] py-[13px]">
+        <div class="px-[33px] py-[10px]">
             <p class="text-[22px] text-[#000000] font-normal leading-[26px]">
                 Mail
             </p>
@@ -40,7 +40,7 @@
         <div class="text-[#000000] text-[35px]">
            <font-awesome-icon icon="fa-solid fa-address-card" />
         </div>
-        <div class="px-[33px] py-[13px]">
+        <div class="px-[33px] py-[10px]">
             <p class="text-[22px] text-[#000000] font-normal leading-[26px]">
                 Số CMND
             </p>
@@ -50,7 +50,7 @@
         <div class="text-[#000000] text-[35px]">
             <font-awesome-icon icon="fa-solid fa-phone" />
         </div>
-        <div class="px-[33px] py-[13px]">
+        <div class="px-[33px] py-[10px]">
             <p class="text-[22px] text-[#000000] font-normal leading-[26px]">
                 Phone
             </p>
@@ -60,7 +60,7 @@
         <div class="text-[#000000] text-[35px]">
            <font-awesome-icon icon="fa-solid fa-address-book" />
         </div>
-        <div class="px-[33px] py-[13px]">
+        <div class="px-[33px] py-[10px]">
             <p class="text-[22px] text-[#000000] font-normal leading-[26px]">
                 Address
             </p>
@@ -70,21 +70,21 @@
         <div class="text-[#000000] text-[35px]">
             <font-awesome-icon icon="fa-solid fa-circle-question" />
         </div>
-        <div class="px-[33px] py-[13px]">
+        <div class="px-[33px] py-[10px]">
             <p class="text-[22px] text-[#000000] font-normal leading-[26px]">
                 Help.
             </p>
         </div>
     </div>
     <div class="pt-[20px] flex pl-[60px]">
-        <div class="px-[69px] py-[13px]">
+        <div class="px-[69px] py-[10px]">
             <p class="text-[22px] text-[#000000] font-normal leading-[26px]">
                 Change Wallpaper.
             </p>
         </div>
     </div>
     <div class="pt-[20px] flex pl-[60px]">
-        <div class="px-[69px] py-[13px]">
+        <div class="px-[69px] py-[10px]">
             <p class="text-[22px] text-[#000000] font-normal leading-[26px]">
                 Invite.
             </p>
