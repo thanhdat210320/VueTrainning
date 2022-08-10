@@ -1,6 +1,6 @@
 <template>
-  <div class=" flex px-[50px]">
-    <div class="w-[720px] h-[807px] pl-[140px] rounded-[30px] bg-[#FFFCFC] shadow-[0px_6px_15px_rgba(0,0,0,0.5)] p-[80px] relative left-[170px] z-10">
+  <div class=" flex py-[120px] pl-[60px]">
+    <div class=" pl-[140px] rounded-[30px] bg-[#FFFCFC] shadow-[0px_6px_15px_rgba(0,0,0,0.5)] p-[80px] relative left-[170px] z-10">
       <div class="">
         <h1 class="title text-[#F57212] text-[43px] font-normal	">
           Customer Care

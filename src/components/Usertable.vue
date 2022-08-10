@@ -1,5 +1,5 @@
 <template>
-  <div class="form w-[1200px]">
+  <div class="form w-[120%]">
     <div class="pt-[35px] pl-[5px]">
       <div class="flex">
         <font-awesome-icon
@@ -85,29 +85,29 @@
           <th>
             <input type="checkbox" />
           </th>
-          <th class="text-start px-[100px]">Name</th>
-          <th class="text-start px-[100px]">Phone</th>
-          <th class="text-start">Email</th>
-          <th class="text-start px-[50px]">Date</th>
-          <th class="text-start">Score</th>
+          <th class=" text-[12px] text-[#7B8395] px-[100px]">Name</th>
+          <th class=" text-[12px] text-[#7B8395] px-[100px]">Phone</th>
+          <th class=" text-[12px] text-[#7B8395]">Email</th>
+          <th class=" px-[50px] text-[12px] text-[#7B8395]">Date</th>
+          <th class=" text-[12px] text-[#7B8395]">Score</th>
         </tr>
         <tr v-for="item in users" :key="item.id">
           <td class="text-center">
             <input type="checkbox" />
           </td>
-          <td>
+          <td class="text-[13px] text-[#1F232E]">
             {{ item.name }}
           </td>
-          <td>
+          <td class="text-[13px] text-[#1F232E]">
             {{ item.phone }}
           </td>
-          <td>
+          <td class="text-[13px] text-[#1F232E]">
             {{ item.email }}
           </td>
-          <td>
+          <td class="text-[13px] text-[#1F232E]">
             {{ item.date }}
           </td>
-          <td>
+          <td class="text-[13px] text-[#1F232E]">
             {{ item.score }}
           </td>
         </tr>

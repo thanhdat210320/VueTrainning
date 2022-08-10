@@ -26,7 +26,7 @@
         </div>
       </div>
     </div>
-    <div class="pt-[20px] flex pl-[60px]">
+    <div class="pt-[15px] flex pl-[60px]">
         <div class="text-[#000000] text-[35px]">
             <font-awesome-icon icon="fa-solid fa-envelope" />
         </div>
@@ -36,7 +36,7 @@
             </p>
         </div>
     </div>
-    <div class="pt-[20px] flex pl-[60px]">
+    <div class="pt-[15px] flex pl-[60px]">
         <div class="text-[#000000] text-[35px]">
            <font-awesome-icon icon="fa-solid fa-address-card" />
         </div>
@@ -46,7 +46,7 @@
             </p>
         </div>
     </div>
-    <div class="pt-[20px] flex pl-[60px]">
+    <div class="pt-[15px] flex pl-[60px]">
         <div class="text-[#000000] text-[35px]">
             <font-awesome-icon icon="fa-solid fa-phone" />
         </div>
@@ -56,7 +56,7 @@
             </p>
         </div>
     </div>
-    <div class="pt-[20px] flex pl-[60px]">
+    <div class="pt-[15px] flex pl-[60px]">
         <div class="text-[#000000] text-[35px]">
            <font-awesome-icon icon="fa-solid fa-address-book" />
         </div>
@@ -66,7 +66,7 @@
             </p>
         </div>
     </div>
-    <div class="pt-[20px] flex pl-[60px]">
+    <div class="pt-[15px] flex pl-[60px]">
         <div class="text-[#000000] text-[35px]">
             <font-awesome-icon icon="fa-solid fa-circle-question" />
         </div>
@@ -76,14 +76,14 @@
             </p>
         </div>
     </div>
-    <div class="pt-[20px] flex pl-[60px]">
+    <div class="pt-[15px] flex pl-[60px]">
         <div class="px-[69px] py-[10px]">
             <p class="text-[22px] text-[#000000] font-normal leading-[26px]">
                 Change Wallpaper.
             </p>
         </div>
     </div>
-    <div class="pt-[20px] flex pl-[60px]">
+    <div class="pt-[15px] flex pl-[60px]">
         <div class="px-[69px] py-[10px]">
             <p class="text-[22px] text-[#000000] font-normal leading-[26px]">
                 Invite.
