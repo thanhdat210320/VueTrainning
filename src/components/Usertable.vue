@@ -20,7 +20,7 @@
       </div>
     </div>
     <div class="text-[#FFFFFF] pt-[42px] pr-[20px] flex justify-end">
-      <button
+      <button @click="Addticket()"
         class="
           text-[22px]
           bg-[#0070D2]
@@ -125,6 +125,17 @@ export default {
       default: () => {},
     },
   },
+  data(){
+    return{
+      ticket:[],
+    }
+  },
+  methods : {
+    Addticket(){
+      console.log("123")
+      alert("add ticket")
+    }
+  }
 };
 </script>
 

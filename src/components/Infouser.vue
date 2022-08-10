@@ -4,7 +4,7 @@
         <p class="text-[#DF6106] text-[20px]">Thông tin khách hàng</p>
     </div>
     <div class="py-[25px] px-[30px] ">
-        <p class="text-[20px]">Tìm kiếm</p>
+        <p @click="Search()" class="text-[20px]">Tìm kiếm</p>
     </div>
 </div>
 
@@ -12,7 +12,18 @@
 
 <script>
 export default {
-    name: "InfouserComponent"
+    name: "InfouserComponent",
+    data () {
+        return{
+            search:""
+        }
+    },
+    methods: {
+        Search(){
+            alert("tìm kiếm")
+        }
+    }
+    
 }
 </script>
 
