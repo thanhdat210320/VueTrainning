@@ -1,5 +1,5 @@
 <template>
-  <div class="form w-[120%]">
+  <div class="form w-[140%]">
     <div class="pt-[35px] pl-[5px]">
       <div class="flex">
         <font-awesome-icon
@@ -43,7 +43,7 @@
           class="
             Option__table
             text-[22px]
-            px-[20px]
+            px-[18px]
             py-[12px]
             leading-[26px]
             font-normal
@@ -57,7 +57,7 @@
         class="
           Option__table1
           text-[22px]
-          px-[20px]
+          px-[10px]
           py-[12px]
           leading-[26px]
           font-normal
@@ -69,7 +69,7 @@
         class="
           Option__table2
           text-[22px]
-          px-[70px]
+          px-[50px]
           py-[12px]
           leading-[26px]
           font-normal
@@ -85,8 +85,8 @@
           <th>
             <input type="checkbox" />
           </th>
-          <th class=" text-[12px] text-[#7B8395] px-[100px]">Name</th>
-          <th class=" text-[12px] text-[#7B8395] px-[100px]">Phone</th>
+          <th class=" text-[12px] text-[#7B8395] px-[70px]">Name</th>
+          <th class=" text-[12px] text-[#7B8395] px-[80px]">Phone</th>
           <th class=" text-[12px] text-[#7B8395]">Email</th>
           <th class=" px-[50px] text-[12px] text-[#7B8395]">Date</th>
           <th class=" text-[12px] text-[#7B8395]">Score</th>

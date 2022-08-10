@@ -49,7 +49,7 @@ export default {
     async getUser() {
       try {
         const repos = await axios.get(
-          "https://api.npoint.io/ce5a9841d94205ae34f9?fbclid=IwAR3RqTgUtSUINGUzXMtcn4u9Dt16bZw9RB71SW3zHy6-rO6CPow1mxYZwKw"
+          "https://api.npoint.io/15ac3d1a6b87c7bab6fa"
         );
         console.log(repos.data);
         this.users = repos.data;

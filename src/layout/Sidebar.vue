@@ -25,7 +25,7 @@
           icon="fa-solid fa-square-poll-vertical"
         />
       </div>
-      <div class="p-[10px] ml-[5px] pb-[30px] pt-[480px] bg-[rgba(0, 112, 210, 0.8)]">
+      <div class="p-[10px] ml-[5px] pb-[30px] pt-[620px] bg-[rgba(0, 112, 210, 0.8)]">
         <font-awesome-icon class="text-[#FFFCFC] text-[50px] font-extralight" icon="fa-solid fa-arrow-right-from-bracket" />
       </div>
     </div>

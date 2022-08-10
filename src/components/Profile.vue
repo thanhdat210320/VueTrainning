@@ -1,5 +1,5 @@
 <template>
-  <div class="pt-[40px]">
+  <div class="pt-[60px]">
     <div class="flex">
       <div class="">
         <img class="pl-[10px]" src="../assets/avt.png" alt="" />
@@ -7,7 +7,7 @@
       <div class="">
         <div class="flex">
           <div class="px-[20px] py-[20px] mt-[10px]">
-            <p class="text-[28px] text-[#000000] leading-[33px] font-bold">Đặng Long</p>
+            <p class="text-[28px] ml-[-16px] text-[#000000] leading-[33px] font-bold">Đặng Long</p>
           </div>
           <div class="pl-[120px] pr-[10px] py-[40px] ml-[20px]">
             <font-awesome-icon class="text-[30px]" icon="fa-solid fa-qrcode" />
@@ -26,7 +26,7 @@
         </div>
       </div>
     </div>
-    <div class="pt-[15px] flex pl-[60px]">
+    <div class="pt-[30px] flex pl-[60px]">
         <div class="text-[#000000] text-[35px]">
             <font-awesome-icon icon="fa-solid fa-envelope" />
         </div>
@@ -36,7 +36,7 @@
             </p>
         </div>
     </div>
-    <div class="pt-[15px] flex pl-[60px]">
+    <div class="pt-[20px] flex pl-[60px]">
         <div class="text-[#000000] text-[35px]">
            <font-awesome-icon icon="fa-solid fa-address-card" />
         </div>
@@ -46,7 +46,7 @@
             </p>
         </div>
     </div>
-    <div class="pt-[15px] flex pl-[60px]">
+    <div class="pt-[20px] flex pl-[60px]">
         <div class="text-[#000000] text-[35px]">
             <font-awesome-icon icon="fa-solid fa-phone" />
         </div>
@@ -56,7 +56,7 @@
             </p>
         </div>
     </div>
-    <div class="pt-[15px] flex pl-[60px]">
+    <div class="pt-[20px] flex pl-[60px]">
         <div class="text-[#000000] text-[35px]">
            <font-awesome-icon icon="fa-solid fa-address-book" />
         </div>
@@ -66,7 +66,7 @@
             </p>
         </div>
     </div>
-    <div class="pt-[15px] flex pl-[60px]">
+    <div class="pt-[20px] flex pl-[60px]">
         <div class="text-[#000000] text-[35px]">
             <font-awesome-icon icon="fa-solid fa-circle-question" />
         </div>
@@ -76,14 +76,14 @@
             </p>
         </div>
     </div>
-    <div class="pt-[15px] flex pl-[60px]">
+    <div class="pt-[20px] flex pl-[60px]">
         <div class="px-[69px] py-[10px]">
             <p class="text-[22px] text-[#000000] font-normal leading-[26px]">
                 Change Wallpaper.
             </p>
         </div>
     </div>
-    <div class="pt-[15px] flex pl-[60px]">
+    <div class="pt-[20px] flex pl-[60px]">
         <div class="px-[69px] py-[10px]">
             <p class="text-[22px] text-[#000000] font-normal leading-[26px]">
                 Invite.
