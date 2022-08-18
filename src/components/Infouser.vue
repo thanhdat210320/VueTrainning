@@ -1,10 +1,10 @@
 <template>
-<div class="flex border-b-2 border-[#DF6106]">
-    <div  class="info__user py-[25px] px-[50px]">
-        <p class="text-[#DF6106] text-[20px]">Thông tin khách hàng</p>
+<div class="flex border-b-2 border-[#DF6106] ">
+    <div  class="info__user py-[25px] px-[50px] lg:px-[10px] lg:py-[15px] xl:px-[50px] xl:py-[25px]">
+        <p class="text-[#DF6106] lg:text-[16px] xl:text-[20px] text-[20px]">Thông tin khách hàng</p>
     </div>
-    <div class="py-[25px] px-[30px] ">
-        <p @click="Search()" class="text-[20px]">Tìm kiếm</p>
+    <div class="py-[25px] px-[30px] lg:px-[10px] lg:py-[15px] xl:px-[30px] xl:py-[25px]">
+        <p @click="Search()" class="text-[20px] xl:text-[20px] lg:text-[16px]">Tìm kiếm</p>
     </div>
 </div>
 
