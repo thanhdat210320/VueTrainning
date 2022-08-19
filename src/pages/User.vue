@@ -1,10 +1,13 @@
 <template>
-  <div class="w-[auto]">
-    <Header />
+  <div class="w-auto mx-auto">
+    <div class="">
+      <Header />
+    </div>
 
-    <div class="flex w-[100%] s:m-0 s:w-[10%]">
-      <Sidebar />
-
+    <div class="flex s:m-0 w-[100%]">
+      <div class="">
+        <Sidebar />
+      </div>
       <div class="flex s:block lg:flex">
         <div class="">
           <font-awesome-icon
@@ -41,8 +44,8 @@
               h-[auto]
               bg-[#FFFFFF]
               rounded-[6px]
-              shadow-[0px_6px_15px_rgba(0,0,0,0.25)
-              md:top-[12%] md:left-[10%]
+              shadow-[0px_6px_15px_rgba(0,0,0,0.25)]
+              s:top-[14%] md:left-[10%]
               lg:hidden
             "
           >
@@ -51,9 +54,9 @@
             <Profile />
           </div>
         </div>
-        <div class="">
-          <Usertable :users="users" @add-user="Adduser" />
-        </div>
+      </div>
+      <div class="formtable w-[70%] pt-[10px]">
+        <Usertable :users="users" @add-user="Adduser" />
       </div>
     </div>
   </div>
@@ -90,7 +93,7 @@ export default {
     async getUser() {
       try {
         const repos = await axios.get(
-          "https://api.npoint.io/15ac3d1a6b87c7bab6fa"
+          "https://api.npoint.io/016a6e42fff0145fc885"
         );
         console.log(repos.data);
         this.users = repos.data;
@@ -102,7 +105,7 @@ export default {
       this.users.push(user);
       if (this.users) {
         await axios
-          .post("https://api.npoint.io/15ac3d1a6b87c7bab6fa", this.users)
+          .post("https://api.npoint.io/016a6e42fff0145fc885", this.users)
           .then()
           .catch((error) => console.log(error));
         console.log(this.users);
